@@ -13,20 +13,35 @@
         <version>2.6.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.dikkulah</groupId>
     <artifactId>springGuru-PetClinic</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springGuru-PetClinic</name>
     <description>springGuru-PetClinic</description>
+
     <properties>
         <java.version>11</java.version>
     </properties>
+    <scm>
+        <developerConnection>scm:git:https://github.com/dikkulah/springGuru-petClinic.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+
+                <configuration>
+                    <goals>install</goals>
+                </configuration>
+
             </plugin>
         </plugins>
     </build>
