@@ -15,7 +15,7 @@
 
     <groupId>com.dikkulah</groupId>
     <artifactId>springGuru-PetClinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>springGuru-PetClinic</name>
     <description>springGuru-PetClinic</description>
 
@@ -24,7 +24,7 @@
     </properties>
     <scm>
         <developerConnection>scm:git:https://github.com/dikkulah/springGuru-petClinic.git</developerConnection>
-        <tag>springGuru-PetClinic-0.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
